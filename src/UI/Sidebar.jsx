@@ -61,7 +61,7 @@ const Sidebar = () => {
         </li>
         <li>
           <NavLink
-            to="/transactions"
+            to="/transfer"
             className={({ isActive }) =>
               `flex items-center gap-4 p-4 hover:bg-gray-700 ${
                 isActive ? activeClass : ""

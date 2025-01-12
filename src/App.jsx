@@ -4,6 +4,7 @@ import Sidebar from "./UI/Sidebar";
 import Home from "./pages/Home";
 import Cards from "./pages/Cards";
 import Transactions from "./pages/Transactions";
+import Transfer from "./pages/Transfer";
 import Settings from "./pages/Settings";
 import Products from "./pages/Products";
 
@@ -16,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cards" element={<Cards />} />
-            <Route path="/transactions" element={<Transactions />} />
+            <Route path="/transfer" element={<Transfer />} />
             <Route path="/products" element={<Products />} />
             <Route path="/settings" element={<Settings />} />
           </Routes>

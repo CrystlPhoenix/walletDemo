@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Transactions } from "../data/Transactions";
+import Transactions from "../data/Transactions";
+
 // Mock transactions data (replace with your actual data source)
 
 const TransactionList = () => {
