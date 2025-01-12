@@ -4,8 +4,7 @@ import TransactionList from "./TransactionList";
 
 const MainSection = () => {
   return (
-    <div className="flex-1 p-4 bg-blue-100">
-      <BalanceCard />
+    <div className="flex-1 p-4 ">
       <TransactionList />
     </div>
   );

@@ -4,6 +4,7 @@ import Sidebar from "./UI/Sidebar";
 import Home from "./pages/Home";
 import Cards from "./pages/Cards";
 import Transactions from "./pages/Transactions";
+import Settings from "./pages/Settings";
 import Products from "./pages/Products";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/cards" element={<Cards />} />
             <Route path="/transactions" element={<Transactions />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
       </div>
